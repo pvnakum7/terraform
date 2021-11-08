@@ -23,6 +23,22 @@ terraform apply terraform.out
 
 
 
+Note terraform.tfvars
+
+appname = "demo-nginx" # Change to your nginxname
+prefix = "development"
+profile = "default" # Change to your key
+region = "us-east-1"
+
+subnet_id = "subnet-0065b31-id" # I should create it's own subnet but... Just copy this from your other instance
+vpc_id = "vpc-0afd4e-id # I should also create its own vpc... Just copy from existing
+
+identity_location = "/Users/imagine/Music/Myproject/Paras.pem" # Change to your key location
+
+ec2_ami_id = "ami-083654bd07b5da81d"
+ec2_instance_size = "t2.micro"
+ec2_instance_count = 1
+
 
 
 
