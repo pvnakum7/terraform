@@ -1,4 +1,5 @@
-# terraform-vpc
+# terraform aws vpc-ec2-nginx 
+
 Terraform, Infrastructure as Code! 
 
 
